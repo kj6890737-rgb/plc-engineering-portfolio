@@ -1,0 +1,60 @@
+# ---- TIA Portal 工程临时文件 ----
+*.ap17
+*.ap16
+*.ap15
+*.bak
+*.zip
+*.tmp
+/TIA_Project/*
+!/TIA_Project/README.md
+
+# ---- FactoryIO 场景缓存 ----
+*.factoryio.tmp
+FactoryIO/Cache/
+FactoryIO/Logs/
+
+# ---- C# / .NET ----
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.userprefs
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+
+# ---- 数据库与日志 ----
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.log
+logs/
+
+# ---- 视频与大文件（不入库，README 放 B 站链接） ----
+videos/
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# ---- 截图与临时素材（按需） ----
+screenshots/tmp/
+*.psd
+*.psb
+
+# ---- 操作系统 ----
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# ---- IDE / 编辑器 ----
+.idea/
+*.swp
+*.swo
